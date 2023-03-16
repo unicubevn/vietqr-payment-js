@@ -1,0 +1,28 @@
+{
+  "name": "vietqr-payment",
+  "version": "0.0.2",
+  "description": "Completed client side and server solution for generating the VietQR for payment with new specification updated in Oct 2022 by Napas (Vietnam)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beanfamily/vietqr-payment-js.git"
+  },
+  "keywords": [
+    "Qrcode",
+    "VietQR",
+    "Payment",
+    "Napas",
+    "Napas247",
+    "Bean",
+    "The Bean Family"
+  ],
+  "author": "Jean Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beanfamily/vietqr-payment-js/issues"
+  },
+  "homepage": "https://github.com/beanfamily/vietqr-payment-js#readme",
+}
