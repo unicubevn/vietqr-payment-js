@@ -2,11 +2,11 @@
 //
 // VietQR Generator for JavaScript
 //
-// Copyright (c) 2023 The Bean Family
+// Copyright (c) 2023 The UniCube
 //
 // Maintainer: Jean Nguyen
 //
-// URL: https://thebeanfamily.org
+// URL: https://unicube.vn
 //
 // Licensed under the MIT license:
 //  http://www.opensource.org/licenses/mit-license.php

@@ -2,11 +2,11 @@
 //
 // VietQR Generator for JavaScript
 //
-// Copyright (c) 2023 The Bean Family
+// Copyright (c) 2023 The UniCube
 //
 // Maintainer: Jean Nguyen
 //
-// URL: https://thebeanfamily.org
+// URL: https://unicube.vn
 //
 // Licensed under the MIT license:
 //  http://www.opensource.org/licenses/mit-license.php
@@ -51,7 +51,8 @@ var FIELDS = {
     local_merchant_city: "",
     uuid: "",
     ipn_url: "",
-    app_package_name: ""
+    app_package_name: "",
+    custom_data:"",
 }
 
 const CRC = {
@@ -273,6 +274,10 @@ class VIETQR {
             new TLV(0, "Language Preference", 2, true, "M", this.fields.lang_ref),
             new TLV(1, "Merchant Name - Alternate Language", 25, false, "M", this.fields.local_merchant_name),
             new TLV(2, "Merchant City - Alternate Language", 15, false, "O", this.fields.local_merchant_city),
+        ])
+        this.data[80] = new TLV(80,"UniCube data",99,false,"0",[
+            new TLV(0, "uuid", 16, false, "O", this.fields.uuid),
+            new TLV(1, "custom data", 83, false, "O", this.fields.custom_data),
         ])
         return this.toString()
     }

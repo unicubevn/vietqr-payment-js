@@ -1,3 +1,17 @@
+//---------------------------------------------------------------------
+//
+// VietQR Generator for JavaScript
+//
+// Copyright (c) 2023 The UniCube
+//
+// Maintainer: Jean Nguyen
+//
+// URL: https://unicube.vn
+//
+// Licensed under the MIT license:
+//  http://www.opensource.org/licenses/mit-license.php
+//
+//---------------------------------------------------------------------
 function include(file) {
  
     let script = document.createElement('script');

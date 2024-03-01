@@ -1,5 +1,5 @@
 {
-  "name": "vietqr-payment",
+  "name": "@unicube/vietqr",
   "version": "0.0.2",
   "description": "Completed client side and server solution for generating the VietQR for payment with new specification updated in Oct 2022 by Napas (Vietnam)",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beanfamily/vietqr-payment-js.git"
+    "url": "git+https://github.com/unicubevn/vietqr-payment-js.git"
   },
   "keywords": [
     "Qrcode",
@@ -17,12 +17,13 @@
     "Napas",
     "Napas247",
     "Bean",
-    "The Bean Family"
+    "The Bean Family",
+    "UniCube"
   ],
   "author": "Jean Nguyen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beanfamily/vietqr-payment-js/issues"
+    "url": "https://github.com/unicubevn/vietqr-payment-js/issues"
   },
-  "homepage": "https://github.com/beanfamily/vietqr-payment-js#readme"
+  "homepage": "https://github.com/unicubevn/vietqr-payment-js#readme"
 }
