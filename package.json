@@ -1,6 +1,6 @@
 {
   "name": "@unicube/vietqr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Completed client side and server solution for generating the VietQR for payment with new specification updated in Oct 2022 by Napas (Vietnam)",
   "main": "index.js",
   "scripts": {

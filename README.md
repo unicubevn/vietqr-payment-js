@@ -74,4 +74,8 @@ This library will help you to generate the VietQR Data String which align with V
 
 ## Supporting
 - Any questions please send us a comment via email: **community@thebeanfamily.org**.
-  
+ 
+## Change log:
+ - 0.0.3: Fix CRC padding in case only have 3 characters
+ - 0.0.2: Update logic for VietQR
+ - 0.0.1: Initial code
