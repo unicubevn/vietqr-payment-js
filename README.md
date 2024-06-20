@@ -62,7 +62,7 @@ This library will help you to generate the VietQR Data String which align with V
   - Then you can use  **QRcode** library to generate the VietQR :
   > let qrcode = new QRCODE(0,"M")
   > 
-  > qrcode.addData(vietQRData,"Byte")
+  > qrcode.addData(vietQRData.builder(),"Byte")
   > 
   > qrcode.make()
   > 
